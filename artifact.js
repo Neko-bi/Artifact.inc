@@ -1,7 +1,7 @@
 // Fetch data from JSON
 async function fetchData() {
   try {
-    const response = await fetch('neko_travel_api.json');
+    const response = await fetch('artifact_api.json');
     const data = await response.json();
     console.log("Fetched data:", data);
     return data;
