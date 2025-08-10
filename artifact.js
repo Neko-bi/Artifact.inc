@@ -76,24 +76,42 @@ async function searchKeyword() {
   }
 
   // Beach Search
-  if (keyword.includes("beach") || keyword === "beaches") {
-    data.beaches.forEach(beach => matchedResults.push({
-      name: beach.name,
-      imageUrl: beach.imageUrl,
-      description: beach.description
+  if (keyword.includes("services") || keyword === "services") {
+    data.services.forEach(service => matchedResults.push({
+      name: service.name,
+      imageUrl: service.imageUrl,
+      description: service.description
     }));
   } else {
-    data.beaches.forEach(beach => {
-      if (beach.name.toLowerCase().includes(keyword)) {
+    data.services.forEach(service => {
+      if (service.name.toLowerCase().includes(keyword)) {
         matchedResults.push({
-          name: beach.name,
-          imageUrl: beach.imageUrl,
-          description: beach.description
+          name: service.name,
+          imageUrl: service.imageUrl,
+          description: service.description
         });
       }
     });
   }
 
+  // Items results\
+  if (keyword.includes("items") || keyword === "items") {
+    data.items.forEach(item => matchedResults.push({
+      name: item.name,
+      imageUrl: item.imageUrl,
+      description: item.description
+    }));
+  } else {
+    data.items.forEach(item => {
+      if (item.name.toLowerCase().includes(keyword)) {
+        matchedResults.push({
+          name: item.name,
+          imageUrl: item.imageUrl,
+          description: item.description
+        });
+      }
+    });
+  }
   // Display Results
   if (matchedResults.length === 0) {
     resultsContainer.innerHTML = "<p>No results found.</p>";
