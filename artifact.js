@@ -38,18 +38,18 @@ async function searchKeyword() {
   // City Search
   data.planets.forEach(planet => {
     if (planet.name.toLowerCase().includes(keyword)) {
-      planet.cities.forEach(city => matchedResults.push({
-        name: city.name,
-        imageUrl: city.imageUrl,
-        description: city.description
+      planet.biomes.forEach(biome => matchedResults.push({
+        name: biome.name,
+        imageUrl: biome.imageUrl,
+        description: biome.description
       }));
     } else {
-      planet.cities.forEach(city => {
-        if (city.name.toLowerCase().includes(keyword) || city.description.toLowerCase().includes(keyword)) {
+      planet.biomes.forEach(biome => {
+        if (biome.name.toLowerCase().includes(keyword) || biome.description.toLowerCase().includes(keyword)) {
           matchedResults.push({
-            name: city.name,
-            imageUrl: city.imageUrl,
-            description: city.description
+            name: biome.name,
+            imageUrl: biome.imageUrl,
+            description: biome.description
           });
         }
       });
@@ -57,19 +57,19 @@ async function searchKeyword() {
   });
 
   // Temple Search
-  if (keyword.includes("temple") || keyword === "temples") {
-    data.temples.forEach(temple => matchedResults.push({
-      name: temple.name,
-      imageUrl: temple.imageUrl,
-      description: temple.description
+  if (keyword.includes("biomes") || keyword === "biomes") {
+    data.biomes.forEach(biome => matchedResults.push({
+      name: biome.name,
+      imageUrl: beiome.imageUrl,
+      description: biome.description
     }));
   } else {
-    data.temples.forEach(temple => {
-      if (temple.name.toLowerCase().includes(keyword)) {
+    data.biomes.forEach(temple => {
+      if (biome.name.toLowerCase().includes(keyword)) {
         matchedResults.push({
-          name: temple.name,
-          imageUrl: temple.imageUrl,
-          description: temple.description
+        name: biome.name,
+        imageUrl: biome.imageUrl,
+        description: biome.description
         });
       }
     });
