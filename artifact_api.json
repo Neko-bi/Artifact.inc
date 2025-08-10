@@ -6,22 +6,22 @@
         "biomes": [
           {
             "name": "Jungle",
-            "imageUrl": "assets/sydney.jpeg",
+            "imageUrl": "assets/jungle.jpeg",
             "description": "The jungles of of Gatix are perlous places full of strange wild life and hazardous vegetation. A lot of the planets resources are found here, but so are many of it's hazards."
           },
           {
             "name": "Mountain",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/mountain.jpeg",
             "description": "The large mountaneous region in the northern hemisphere of Gatix, what it lacks in wildlife it makes up for in uninhabitalbe terrain. Innitial scans of this area suggest there is a strong power source somewhere within it."
           }
         {
             "name": "Desert",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/desert.jpeg",
             "description": "Hot and arid, the deserts of Gatix are not for the weak willed. Although the wildlife is limited during the day, the intense heat can make traversing this area a marathon task."
           }
         {
             "name": "Canyon",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/canyon.jpeg",
             "description": "Just south of the extensive mountain region, the canyon nearly entirely devides the planet in two. It's long pathways spand out in various directions, and the scanners have yet to be able to get a good reading on anything within this area."
           }
         ]
@@ -32,12 +32,12 @@
         "biomes": [
           {
             "name": "Sprawl"
-            "imageUrl": "assets/tokyo.jpeg",
+            "imageUrl": "assets/sprawl.jpeg",
             "description": "With most of Earth's major inhabited areas having been fully terriformed, 99% of the population now live in far spanning megacities, known as Sprawls. Life is diverse in the sprawl with people finding their own niches, wehther that be above the clouds with clean filtered air in the mega towers, or down in the slums. Where once the greatest biodiversity was found in jungles, it is now found within the Sprawl."
           },
           {
             "name": "Wasteland",
-            "imageUrl": "assets/kyoto.jpeg",
+            "imageUrl": "assets/wasteland.jpeg",
             "description": "Following the destruction of most liveable habitat outside of the controlled zones, much of the earth has now been left to barren wastelands, either too hot, too cold, too dry or too wet for anything to really live and thrive."
           }
         ]
@@ -48,7 +48,7 @@
         "biomes": [
           {
             "name": "Neo Luna",
-            "imageUrl": "assets/rio.jpeg",
+            "imageUrl": "assets/moon.jpeg",
             "description": "With life on Earth becomign harsher, those with the means to do so have started fleeing to moon colonies. Although, limited in it's conditions Neo Luna has been provding a both a play and testing ground for rich elites. And better yet, there's no taxes in Neo Luna."
           },
         ]
@@ -58,25 +58,25 @@
        {
            "id": 1,
             "name": "Jungle",
-            "imageUrl": "assets/sydney.jpeg",
+            "imageUrl": "assets/jungle.jpeg",
             "description": "The jungles of of Gatix are perlous places full of strange wild life and hazardous vegetation. A lot of the planets resources are found here, but so are many of it's hazards."
           },
           {
               "id": 2,
             "name": "Mountain",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/mountain.jpeg",
             "description": "The large mountaneous region in the northern hemisphere of Gatix, what it lacks in wildlife it makes up for in uninhabitalbe terrain. Innitial scans of this area suggest there is a strong power source somewhere within it."
           }
         {
             "id": 3,
             "name": "Desert",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/desert.jpeg",
             "description": "Hot and arid, the deserts of Gatix are not for the weak willed. Although the wildlife is limited during the day, the intense heat can make traversing this area a marathon task."
           }
         {
             "id": 4,
             "name": "Canyon",
-            "imageUrl": "assets/melbourne.jpeg",
+            "imageUrl": "assets/canyon.jpeg",
             "description": "Just south of the extensive mountain region, the canyon nearly entirely devides the planet in two. It's long pathways spand out in various directions, and the scanners have yet to be able to get a good reading on anything within this area."
           }
     ],
@@ -84,13 +84,13 @@
       {
         "id": 1,
         "name": "Tony - The Manager",
-        "imageUrl":"assets/beach.jpeg",
+        "imageUrl":"assets/tony.jpeg",
         "description": "Whether you're in a pickle and need some equipment stat, or looking to beam up and outta there. Tony has your back, as long as he get's his cut."
       },
       {
         "id": 2,
         "name": "Dorothy Perkins - The Curator",
-        "imageUrl": "assets/copacaba.jpeg",
+        "imageUrl": "assets/dorothy.jpeg",
         "description": "A famous curator of alien technologies and crystallium. Ms. Perkins is always available to appraise your items and make sure you get your cut."
       }
     ]
@@ -98,13 +98,13 @@
       {
         "id": 1,
         "name": "Crystallium",
-        "imageUrl":"assets/beach.jpeg",
+        "imageUrl":"assets/cyrstallium.jpeg",
         "description": "Discovered late in the 20s following a metor strike in the Gulf of America. Crystallium changed the power needs of the world overnight. It's high power output and portability meant that anyone had the energy requirements to be able to construct, create and destroy nearly anything they wanted. Whilst it's use is regulated and it is still a relatively rare resource, it's vast power capabilities quickly allowed for the development of space farring technologies so that it's source could be discovered."
       },
       {
         "id": 2,
         "name": "Relics",
-        "imageUrl": "assets/copacaba.jpeg",
+        "imageUrl": "assets/relics.jpeg",
         "description": "During the recent space exploration boom, although no living intelligent life has been found, various artifacts of bygone civilizations have. These artifacts range from everyday antiquity style relics, such as the pots and tools we previously found on earth, to strange items that even the greatest scientific minds have yet to dicipher. One things for sure though, they are highly sort after items by many of the conglomorates that still stand today."
       }
     ]
