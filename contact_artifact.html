@@ -13,13 +13,11 @@
           <div class="logo">
             <img src="assets/a_logo1.jpeg" alt="Logo">
             <a href="/Artifact.inc/index.html">Artifact Inc.</a>
+            <img src="assets/a_logo2.jpeg" alt="Logo">
           </div>
           <div class="nav-links">
             <a href="/Artifact.inc/index.html">Home</a>
             <a href="/Artifact.inc/about_artifact.html">About Artifact Inc.</a>
-          </div>
-          <div class="search-bar">
-            <a>                       </a><!--jankwhitespace for fomatting :3-->
           </div>
         </nav>
         <div id="results"></div>
@@ -33,11 +31,11 @@
                     <input type="email" placeholder="Your Email" required="">
                     <input type="ID" placeholder="Your Galactic ID number" required="">
                     <div>
-                        <label><input type="checkbox" class="check" /> I agree that by checking this box and pressing submit my message will be sent to the Artifact Inc. customer service team
+                        <label><input type="checkbox" class="check" required="" /> I agree that by checking this box and pressing submit my message will be sent to the Artifact Inc. customer service team
                             <small><small><small><br>and I waive my rights to make any kind of complaint whether it be formal, financial, legal or otherwise.</small></small></small></label>
                     </div>
                    <textarea rows="5" placeholder="Your message here" required=""></textarea>
-                    <button type="submit">Submit</button>
+                   <button id="submitbtn" onclick="submitContact()">Submit</button>
                 </form>
             </div>
         </section>

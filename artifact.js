@@ -60,11 +60,11 @@ async function searchKeyword() {
   if (keyword.includes("biomes") || keyword === "biomes") {
     data.biomes.forEach(biome => matchedResults.push({
       name: biome.name,
-      imageUrl: beiome.imageUrl,
+      imageUrl: biome.imageUrl,
       description: biome.description
     }));
   } else {
-    data.biomes.forEach(temple => {
+    data.biomes.forEach(biome => {
       if (biome.name.toLowerCase().includes(keyword)) {
         matchedResults.push({
         name: biome.name,
@@ -134,4 +134,10 @@ async function searchKeyword() {
 function clearResults() {
   document.getElementById('searchInput').value = '';
   document.getElementById('results').innerHTML = '';
+}
+
+//contact form achnoledgement
+
+function submitContact() {
+    alert('Thank you. Our customer service team will reach out to you within 534,728,000 rels')
 }

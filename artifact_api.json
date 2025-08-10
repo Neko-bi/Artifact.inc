@@ -13,12 +13,12 @@
             "name": "Mountain",
             "imageUrl": "assets/mountain.jpeg",
             "description": "The large mountaneous region in the northern hemisphere of Gatix, what it lacks in wildlife it makes up for in uninhabitalbe terrain. Innitial scans of this area suggest there is a strong power source somewhere within it."
-          }
+          },
         {
             "name": "Desert",
             "imageUrl": "assets/desert.jpeg",
             "description": "Hot and arid, the deserts of Gatix are not for the weak willed. Although the wildlife is limited during the day, the intense heat can make traversing this area a marathon task."
-          }
+          },
         {
             "name": "Canyon",
             "imageUrl": "assets/canyon.jpeg",
@@ -31,7 +31,7 @@
         "name": "Earth",
         "biomes": [
           {
-            "name": "Sprawl"
+            "name": "Sprawl",
             "imageUrl": "assets/sprawl.jpeg",
             "description": "With most of Earth's major inhabited areas having been fully terriformed, 99% of the population now live in far spanning megacities, known as Sprawls. Life is diverse in the sprawl with people finding their own niches, wehther that be above the clouds with clean filtered air in the mega towers, or down in the slums. Where once the greatest biodiversity was found in jungles, it is now found within the Sprawl."
           },
@@ -49,8 +49,8 @@
           {
             "name": "Neo Luna",
             "imageUrl": "assets/moon.jpeg",
-            "description": "With life on Earth becomign harsher, those with the means to do so have started fleeing to moon colonies. Although, limited in it's conditions Neo Luna has been provding a both a play and testing ground for rich elites. And better yet, there's no taxes in Neo Luna."
-          },
+            "description": "With life on Earth becoming harsher, those with the means to do so have started fleeing to moon colonies. Although, limited in it's conditions Neo Luna has been provding a both a play and testing ground for rich elites. And better yet, there's no taxes in Neo Luna."
+          }
         ]
       }
     ],
@@ -66,13 +66,13 @@
             "name": "Mountain",
             "imageUrl": "assets/mountain.jpeg",
             "description": "The large mountaneous region in the northern hemisphere of Gatix, what it lacks in wildlife it makes up for in uninhabitalbe terrain. Innitial scans of this area suggest there is a strong power source somewhere within it."
-          }
+          },
         {
             "id": 3,
             "name": "Desert",
             "imageUrl": "assets/desert.jpeg",
             "description": "Hot and arid, the deserts of Gatix are not for the weak willed. Although the wildlife is limited during the day, the intense heat can make traversing this area a marathon task."
-          }
+          },
         {
             "id": 4,
             "name": "Canyon",
@@ -93,12 +93,12 @@
         "imageUrl": "assets/dorothy.jpeg",
         "description": "A famous curator of alien technologies and crystallium. Ms. Perkins is always available to appraise your items and make sure you get your cut."
       }
-    ]
- "items": [
+    ],
+     "items": [
       {
         "id": 1,
         "name": "Crystallium",
-        "imageUrl":"assets/cyrstallium.jpeg",
+        "imageUrl":"assets/crystallium.jpeg",
         "description": "Discovered late in the 20s following a metor strike in the Gulf of America. Crystallium changed the power needs of the world overnight. It's high power output and portability meant that anyone had the energy requirements to be able to construct, create and destroy nearly anything they wanted. Whilst it's use is regulated and it is still a relatively rare resource, it's vast power capabilities quickly allowed for the development of space farring technologies so that it's source could be discovered."
       },
       {
