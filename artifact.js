@@ -35,7 +35,7 @@ async function searchKeyword() {
   const data = await fetchData();
   const matchedResults = [];
 
-  // City Search
+  // Planet Search
   data.planets.forEach(planet => {
     if (planet.name.toLowerCase().includes(keyword)) {
       planet.biomes.forEach(biome => matchedResults.push({
@@ -56,7 +56,7 @@ async function searchKeyword() {
     }
   });
 
-  // Temple Search
+  // Biome Search
   if (keyword.includes("biomes") || keyword === "biomes") {
     data.biomes.forEach(biome => matchedResults.push({
       name: biome.name,
@@ -75,7 +75,7 @@ async function searchKeyword() {
     });
   }
 
-  // Beach Search
+  // Services Search
   if (keyword.includes("services") || keyword === "services") {
     data.services.forEach(service => matchedResults.push({
       name: service.name,
@@ -94,7 +94,7 @@ async function searchKeyword() {
     });
   }
 
-  // Items results\
+  // Items search
   if (keyword.includes("items") || keyword === "items") {
     data.items.forEach(item => matchedResults.push({
       name: item.name,
