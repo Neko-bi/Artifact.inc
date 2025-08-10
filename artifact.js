@@ -36,15 +36,15 @@ async function searchKeyword() {
   const matchedResults = [];
 
   // City Search
-  data.countries.forEach(country => {
-    if (country.name.toLowerCase().includes(keyword)) {
-      country.cities.forEach(city => matchedResults.push({
+  data.planets.forEach(planet => {
+    if (planet.name.toLowerCase().includes(keyword)) {
+      planet.cities.forEach(city => matchedResults.push({
         name: city.name,
         imageUrl: city.imageUrl,
         description: city.description
       }));
     } else {
-      country.cities.forEach(city => {
+      planet.cities.forEach(city => {
         if (city.name.toLowerCase().includes(keyword) || city.description.toLowerCase().includes(keyword)) {
           matchedResults.push({
             name: city.name,
